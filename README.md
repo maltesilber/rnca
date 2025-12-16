@@ -5,13 +5,15 @@ This repository implements **rNCA** (self-repairing segmentation masks) for imag
 
 ## Overview
 <p align="center">
-  <img src="figures/rnca.png" alt="rNCA figure" width="900"/>
+<img width="2100" height="870" alt="rnca" src="https://github.com/user-attachments/assets/db7f4b57-7cd5-4f29-b051-a94b9a09c239" />
 </p>
 
 **Refinement Neural Cellular Automata (rNCA)** is a lightweight post-processing method for repairing segmentaiton errors. It uses Neural Cellular Automata trained on imperfect predictions and ground truth masks to iteratively refine coarse segmentations using only local information. The learned dynamics reconnect fragmented regions, remove spurious components, and converge to stable, topologically consistent masks, making rNCA a task-agnostic and model-agnostic refinement module.
 
 ## Examples
-<p align="center"> <img src="figures/vessel.gif" alt="rNCA in action for vessel segmentation" width="600"/> </p>
+<p align="center">
+<img alt="vessel" src="https://github.com/user-attachments/assets/a5860b94-c519-4bdc-84aa-a5b2353fcd7b" />
+</p>
 
 ## Usage
 This repository contains a minimal example for training the **rNCA** (self-repairing segmentation masks) model on a synthetic dataset.
